@@ -19,7 +19,7 @@ body {
 }
 
 .csint-hero img {
-  width: 70% !important;
+  width: 90% !important;
   height: auto !important;
   display: block !important;
   margin-top: 60px !important;
@@ -51,6 +51,7 @@ body {
   aspect-ratio: 1 !important;
   position: relative !important;
   flex-shrink: 0 !important;
+  background: #efefef !important;
 }
 
 .csint-img .csint-item .csint-center {

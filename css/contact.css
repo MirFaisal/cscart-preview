@@ -21,10 +21,10 @@ body {
   width: 100% !important;
   height: 630px;
   overflow: hidden !important;
-  background-image: url("../images/contactbanner.png");
+  background-image: url("../images/contactbanner.png") !important;
   background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+  background-repeat: no-repeat !important;
+  background-position: center bottom !important;
 }
 
 .csint-hero-img {
@@ -157,18 +157,24 @@ body {
 }
 
 /* FORM */
-.csint-contact-form-area h3 {
-  font-size: 28px !important;
-  font-weight: 400 !important;
-  margin-bottom: 30px !important;
-  margin-top: 0 !important;
+.csint-contact-form-area div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+.csint-contact-form-area div img {
+  width: 50%;
 }
 
-.csint-contact-details h3 {
-  font-size: 28px !important;
-  font-weight: 400 !important;
-  margin-bottom: 30px !important;
-  margin-top: 0 !important;
+.csint-contact-details div {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding-bottom: 90px;
+}
+.csint-contact-details div img {
+  width: 50%;
 }
 
 form {
@@ -318,7 +324,7 @@ button:hover {
 
   .csint-contact-bottom-section {
     grid-template-columns: 1fr !important;
-    gap: 50px !important;
+    gap: 150px !important;
     margin-top: 50px !important;
   }
 
