@@ -16,7 +16,7 @@ body {
 
 /* Hero Section */
 .csint-hero {
-  width: 99% !important;
+  width: 87% !important;
   margin-top: 170px !important;
   margin-inline: auto !important;
   position: relative !important;
@@ -54,7 +54,7 @@ body {
 .csint-hero-overlay {
   position: absolute !important;
   top: -110px !important;
-  left: -118px !important;
+  left: -104px !important;
   width: 100% !important;
   height: 100% !important;
   padding-left: 6% !important;

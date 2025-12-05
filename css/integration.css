@@ -14,7 +14,8 @@ body {
 }
 
 .csint-hero {
-  width: 100% !important;
+  width: 90% !important;
+  margin: auto !important;
 }
 
 .csint-hero img {

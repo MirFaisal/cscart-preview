@@ -18,8 +18,9 @@ body {
 /* HERO SECTION */
 .csint-contact-hero-section {
   position: relative !important;
-  width: 100% !important;
+  width: 95% !important;
   height: 630px;
+  margin-inline: auto;
   overflow: hidden !important;
   background-image: url("../images/contactbanner.png") !important;
   background-size: 100%;
@@ -158,23 +159,23 @@ body {
 
 /* FORM */
 .csint-contact-form-area div {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 90px;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-bottom: 90px !important;
 }
 .csint-contact-form-area div img {
-  width: 50%;
+  width: 50% !important;
 }
 
 .csint-contact-details div {
-  width: 100%;
+  width: 100% !important;
   display: flex;
   justify-content: start;
   padding-bottom: 90px;
 }
 .csint-contact-details div img {
-  width: 50%;
+  width: 60% !important;
 }
 
 form {
@@ -230,6 +231,7 @@ button:hover {
 .csint-contact-details {
   display: flex !important;
   flex-direction: column !important;
+  padding-left: 100px;
 }
 .csint-contact-details p {
   display: flex !important;
