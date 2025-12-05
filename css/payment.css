@@ -1,0 +1,329 @@
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+.csint-page {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.csint-hero {
+  text-align: center !important;
+  width: 100% !important;
+}
+
+.csint-hero img {
+  width: 70% !important;
+  height: auto !important;
+  display: block !important;
+  margin-top: 60px !important;
+  margin-inline: auto !important;
+}
+
+.csint-title {
+  font-family: "Montserrat", sans-serif !important;
+  text-align: center !important;
+  font-size: 73px !important;
+  font-weight: 800 !important;
+  margin-bottom: 65px !important;
+  color: #1a1414 !important;
+  margin-top: 77px !important;
+}
+
+.csint-img {
+  width: 100% !important;
+  max-width: 755px !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 10px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.csint-img .csint-item {
+  width: 100% !important;
+  aspect-ratio: 1 !important;
+  position: relative !important;
+  flex-shrink: 0 !important;
+}
+
+.csint-img .csint-item .csint-center {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #000000 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 20px !important;
+}
+
+.csint-img .csint-item .csint-center p {
+  text-align: center !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: white !important;
+  font-size: 30.5px !important;
+  margin: 0 !important;
+}
+
+.csint-img .csint-item img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.csint-img .csinit-paymet-m {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.csint-img .csinit-paymet-m img {
+  width: 50% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+
+.csint-img .csint-overlay::before {
+  content: "" !important;
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: #ffffff87 !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.csint-divider {
+  border-top: 2px solid #2e2e2e !important;
+  margin: 19px 0 !important;
+}
+
+.csint-container {
+  width: 100% !important;
+  max-width: 1140px !important;
+  margin: 0 auto !important;
+  margin-top: 160px !important;
+  padding: 0 20px !important;
+  margin-bottom: 80px !important;
+}
+
+.csint-container .csint-heading {
+  max-width: 536px !important;
+}
+
+.csint-heading h2 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 49.5px !important;
+  font-weight: 400 !important;
+  color: #000000 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.csint-bottom-img {
+  width: 100% !important;
+  max-width: 855px !important;
+  display: flex !important;
+  gap: 10px !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  margin: 0 auto !important;
+  margin-top: 160px !important;
+  padding: 0 20px !important;
+}
+
+.csint-bottom-img .csint-item {
+  width: 278px !important;
+  flex-shrink: 0 !important;
+}
+
+.csint-bottom-img .csint-item img {
+  width: 100% !important;
+  display: block !important;
+}
+
+.csint-sidebyside-content {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 43px 83px !important;
+}
+
+.csint-sidebyside-item {
+  width: calc(50% - 41.5px) !important;
+}
+
+.csint-sidebyside-item h3 {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px !important;
+  text-transform: uppercase !important;
+  margin-top: 0 !important;
+  margin-bottom: 15px !important;
+}
+
+.csint-sidebyside-item p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px !important;
+  text-align: justify !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+/* RESPONSIVE STYLES */
+@media (max-width: 1200px) {
+  .csint-container {
+    max-width: 960px !important;
+  }
+
+  .csint-heading h2 {
+    font-size: 42px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .csint-title {
+    font-size: 56px !important;
+    margin-top: 60px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .csint-img {
+    max-width: 520px !important;
+    gap: 8px !important;
+  }
+
+  .csint-img .csint-item .csint-center p {
+    font-size: 22px !important;
+  }
+
+  .csint-container {
+    margin-top: 120px !important;
+    padding: 0 30px !important;
+  }
+
+  .csint-heading h2 {
+    font-size: 36px !important;
+  }
+
+  .csint-sidebyside-content {
+    gap: 35px 60px !important;
+  }
+
+  .csint-sidebyside-item {
+    width: calc(50% - 30px) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .csint-title {
+    font-size: 42px !important;
+    margin-top: 50px !important;
+    margin-bottom: 40px !important;
+    padding: 0 20px !important;
+  }
+
+  .csint-img {
+    max-width: 360px !important;
+    gap: 6px !important;
+  }
+
+  .csint-img .csint-item .csint-center p {
+    font-size: 16px !important;
+  }
+
+  .csint-container {
+    margin-top: 80px !important;
+  }
+
+  .csint-heading h2 {
+    font-size: 30px !important;
+  }
+
+  .csint-sidebyside-content {
+    gap: 30px !important;
+  }
+
+  .csint-sidebyside-item {
+    width: 100% !important;
+  }
+
+  .csint-sidebyside-item h3 {
+    font-size: 15px !important;
+  }
+
+  .csint-sidebyside-item p {
+    font-size: 13px !important;
+  }
+
+  .csint-bottom-img {
+    max-width: 600px !important;
+    margin-top: 80px !important;
+  }
+
+  .csint-bottom-img .csint-item {
+    width: 190px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .csint-hero img {
+    margin-top: 10px !important;
+    width: 95% !important;
+  }
+
+  .csint-title {
+    font-size: 28px !important;
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .csint-img {
+    max-width: 100% !important;
+    gap: 5px !important;
+    padding: 0 10px !important;
+  }
+
+  .csint-img .csint-item .csint-center p {
+    font-size: 10px !important;
+    line-height: 1.2 !important;
+  }
+
+  .csint-container {
+    margin-top: 60px !important;
+    padding: 0 20px !important;
+    margin-bottom: 60px !important;
+  }
+
+  .csint-heading h2 {
+    font-size: 24px !important;
+  }
+
+  .csint-sidebyside-content {
+    gap: 25px !important;
+  }
+
+  .csint-sidebyside-item h3 {
+    font-size: 14px !important;
+  }
+
+  .csint-sidebyside-item p {
+    font-size: 12px !important;
+    text-align: left !important;
+  }
+
+  .csint-bottom-img {
+    margin-top: 60px !important;
+    gap: 8px !important;
+  }
+
+  .csint-bottom-img .csint-item {
+    width: calc(33.333% - 6px) !important;
+  }
+}

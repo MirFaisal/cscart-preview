@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box !important;
+}
+body {
+  margin: 0 !important;
+  font-family: "Montserrat", sans-serif !important;
+  color: #1a1414 !important;
+}
+
+.csint-page {
+  width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Hero Trio */
+.csint-hero-trio {
+  max-width: 1400px !important;
+  margin: 60px auto 30px !important;
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 24px !important;
+  align-items: center !important;
+  /* justify-items: center !important; */
+}
+.csint-hero-trio .csint-hero-box img {
+  width: 90%;
+}
+
+/* Title */
+.csint-title-section {
+  max-width: 1140px !important;
+  margin: 60px auto 60px !important;
+}
+.csint-title {
+  text-align: center !important;
+  font-weight: 300 !important;
+  font-size: 64px !important;
+  letter-spacing: 50px !important;
+  margin: 0 !important;
+}
+
+.csint-title-typewriter span {
+  display: inline-block !important;
+  transform-origin: center !important;
+}
+
+@keyframes rotateIn {
+  0% {
+    transform: rotate(15deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* Subtitle */
+.csint-subtitle {
+  max-width: 1140px !important;
+  margin: 100px auto 80px !important;
+}
+.csint-subtitle-text {
+  text-align: center !important;
+  font-weight: 400 !important;
+  font-size: 35px !important;
+  letter-spacing: 15px !important;
+  line-height: 1.6 !important;
+  margin: 0 !important;
+}
+
+.csint-cup-section {
+  width: 362px !important;
+  text-align: justify !important;
+  margin: auto !important;
+  line-height: 27px !important;
+  position: relative !important;
+}
+.csint-cup-section .csint-cup-section-absulate {
+  opacity: 0 !important;
+  height: 300px !important;
+  overflow: hidden !important;
+}
+.csint-cup-section .csint-cup-section-absulate img {
+  height: 300px !important;
+}
+.csint-cup-section .csint-cup-section-flot {
+  position: absolute !important;
+  left: -120% !important;
+  height: 350px !important;
+}
+.csint-cup-section .csint-cup-section-flot img {
+  height: 350px !important;
+}
+.csint-cup-section .csint-cup-section-flot img {
+  width: 110% !important;
+}
+
+.csinit-inkoop-section {
+  width: 382px !important;
+  text-align: justify !important;
+  margin: auto !important;
+  position: relative !important;
+}
+.csinit-inkoop-section .title {
+  letter-spacing: 38px !important;
+  text-transform: uppercase !important;
+  font-size: 39px !important;
+}
+.csinit-inkoop-section .aticle-section {
+  width: 362px !important;
+  text-align: justify !important;
+  margin: auto !important;
+  line-height: 27px !important;
+}
+.csinit-inkoop-section .fast {
+  margin-bottom: 70px !important;
+}
+.csinit-inkoop-section .inkoop-flot {
+  position: absolute !important;
+  right: -300px !important;
+  bottom: 330px !important;
+  height: 300px !important;
+}
+.csinit-inkoop-section .inkoop-flot img {
+  height: 300px;
+}
+
+.csinit-inkoop-section .inkoop-absulate {
+  opacity: 0 !important;
+  display: none !important;
+}
+
+.csint-waarm-section {
+  width: 450px !important;
+  text-align: justify !important;
+  margin: auto !important;
+  position: relative !important;
+  margin-top: 150px !important;
+}
+.csint-waarm-section .title {
+  font-weight: bold !important;
+  font-size: 25px !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+}
+.csint-waarm-section .article {
+  width: 362px !important;
+  margin-inline: auto !important;
+  margin-top: 150px !important;
+  margin-bottom: 80px !important;
+  line-height: 27px !important;
+  font-size: 16px !important;
+}
+.csint-waarm-section .waarm-section-flot {
+  position: absolute !important;
+  left: -360px !important;
+  bottom: -190px !important;
+}
+
+.csint-besparing-section {
+  width: 362px !important;
+  text-align: justify !important;
+  margin: auto !important;
+  line-height: 27px !important;
+}
+/* SVG arc styling */
+.csint-besparing-section .csint-arc {
+  display: block !important;
+  margin: auto 40px !important;
+}
+.csint-besparing-section .image {
+  width: 100% !important;
+  margin-bottom: 70px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.csint-besparing-section .article {
+  margin-bottom: 40px !important;
+}
+.vartical-line {
+  width: 2px !important;
+  background: #000 !important;
+  height: 300px !important;
+  margin: 150px auto !important;
+}
+
+/* --------------------------------------- */
+/*   TABLET RESPONSIVE (max-width: 991px)  */
+/* --------------------------------------- */
+@media (max-width: 991px) {
+  /* .csint-hero-trio {
+    max-width: 90%;
+    margin: 40px auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  } */
+
+  .csint-title {
+    font-size: 48px !important;
+    letter-spacing: 30px !important;
+  }
+
+  .csint-subtitle-text {
+    font-size: 28px !important;
+    letter-spacing: 10px !important;
+  }
+
+  .csint-cup-section,
+  .csinit-inkoop-section,
+  .csint-waarm-section,
+  .csint-besparing-section {
+    width: 48% !important;
+    text-align: justify !important;
+  }
+
+  .csint-cup-section .csint-cup-section-flot,
+  .csinit-inkoop-section .inkoop-flot,
+  .csint-waarm-section .waarm-section-flot {
+    display: none !important; /* hide floating images */
+  }
+
+  .csint-cup-section .csint-cup-section-absulate,
+  .csinit-inkoop-section .inkoop-absulate {
+    display: block !important;
+    opacity: 1 !important;
+    text-align: justify !important;
+    margin-top: 20px !important;
+  }
+
+  .csint-waarm-section .title {
+    font-size: 22px !important;
+  }
+
+  .csint-waarm-section .article {
+    margin-top: 60px !important;
+  }
+  .csint-besparing-section .csint-arc {
+    margin: 0 auto !important;
+    margin-left: 30px !important;
+  }
+}
+
+/* --------------------------------------- */
+/*   MOBILE RESPONSIVE (max-width: 576px)  */
+/* --------------------------------------- */
+@media (max-width: 576px) {
+  body {
+    padding: 0 15px !important;
+  }
+
+  /* Hero Trio becomes stacked */
+  /* .csint-hero-trio {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  } */
+
+  .csint-title {
+    font-size: 32px !important;
+    letter-spacing: 12px !important;
+  }
+
+  .csint-subtitle-text {
+    font-size: 20px !important;
+    letter-spacing: 5px !important;
+    line-height: 1.4 !important;
+  }
+
+  .csint-cup-section,
+  .csinit-inkoop-section,
+  .csint-waarm-section,
+  .csint-besparing-section {
+    width: 100% !important;
+    margin: 40px auto !important;
+    line-height: 24px !important;
+  }
+
+  .csinit-inkoop-section .title {
+    font-size: 30px !important;
+    letter-spacing: 20px !important;
+  }
+
+  .csint-waarm-section .title {
+    font-size: 20px !important;
+  }
+
+  .csint-besparing-section .image img {
+    width: 70% !important;
+  }
+  .csint-besparing-section .csint-arc {
+    margin: 0 auto !important;
+  }
+
+  .vartical-line {
+    height: 180px !important;
+    margin: 80px auto !important;
+  }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .csint-hero-trio {
+    max-width: 90% !important;
+    margin: 40px auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important; /* 2 columns */
+    gap: 16px !important;
+  }
+
+  .csint-hero-trio img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 6px !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .csint-hero-trio {
+    max-width: 100% !important;
+    margin: 20px auto !important;
+    grid-template-columns: 1fr !important; /* stack vertically */
+    gap: 12px !important;
+  }
+
+  .csint-hero-trio img {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 6px !important;
+  }
+}
